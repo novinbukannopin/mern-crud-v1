@@ -1,0 +1,13 @@
+GET http://localhost:5000/users
+
+
+PATCH  http://localhost:5000/users/641ff24ba4b388b99ad6b9b7
+Content-Type: application/json
+
+{
+    "name" : "Ukil Update 2",
+    "email": "ukil@dev.dev",
+    "gender": "Male"
+}
+
+
